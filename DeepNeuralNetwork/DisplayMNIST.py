@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 
 X_train.shape
 
-plt.figure(figsize=(10,10))
+plt.figure(figsize=(5,5))
 for k in range(600):
     plt.subplot(10, 60, k+1)
     plt.imshow(X_train[k], cmap='Greys')
